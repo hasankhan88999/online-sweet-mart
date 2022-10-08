@@ -1,0 +1,96 @@
+body {
+    background-image: linear-gradient(to right, #e2e2e2, #f0e9e9);
+}
+
+.title-head{
+    color: gold;
+}
+.product-wrapper {
+    margin-top: 70px;
+}
+
+/* overriding placeholder font size
+for bootstrap */
+::-webkit-input-placeholder {
+   font-size: 13px!important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+      font-size: 13px!important;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+      font-size: 13px!important;
+}
+
+.product-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-title > a{
+    text-decoration: none;
+}
+
+.prd-col{
+    text-align: center;
+}
+
+
+.prd-col > .prd-collapse{
+    text-align: left;
+}
+
+.prd-col > .prd-collapse >.card-section{
+    padding: 10px;
+    opacity: 0.8;
+    font-size: small;
+}
+
+.prd-col>Button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30vw;
+}
+
+.prd-col>.prd-collapse {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+Form{
+    margin: 10px;
+}
+
+Table{
+    margin-top: 5px;
+}
+
+.card-section > h3{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+@media (max-width: 575px) {
+    .prd-col>Button {
+        margin-bottom: 10px;
+        width: 45vw;
+    }
+
+    .prd-col>.prd-collapse {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    @media (max-width: 768px) {
+        .prd-col>Button {
+            margin-bottom: 10px;
+            width: 30vw;
+        }
+
+        .prd-col>.prd-collapse {
+            width: 100%;
+        }
+    }
+}
