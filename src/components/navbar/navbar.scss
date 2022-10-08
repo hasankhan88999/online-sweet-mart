@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+ .signup-links {
+    display: flex;
+    width: 240px;   
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 12%;
+    width: 75%;
+    height: 100px;
+    color: #242424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight:700;
+    font-family: 'Open Sans';
+    word-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #2b2a2a;
+}
+
+.cartIcon{
+    font-size: 36px;
+    color: #232323;
+}
+
+.badge{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    transform: translate(-20%, -50%);
+    margin-right: 10px;
+}
+
+.counter{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+
+.span{
+    font-size: 26px;
+    font-family: 'Roboto Condensed';
+    font-weight: 500;
+    word-spacing: 5px;
+    color: #333;
+    margin-left: 10px;
+}
+
+.search{
+    background-color: #333;
+    color: white;
+    width: 400px;
+    height: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    border-radius: 32px;
+}
+
+.search::placeholder{
+    color: white;
+    font-weight: 300;
+    font-family: 'Open Sans';
+}

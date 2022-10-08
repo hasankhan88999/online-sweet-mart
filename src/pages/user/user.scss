@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.section{
+    position: absolute;
+    height: 80vh;
+    width: 80%;
+    top: 100px;
+    left: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logImg{
+    height: 400px;
+    width: 500px;
+    overflow: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.logImg > img{
+    width: 100%;
+    height: 100%;
+}
+
+.user-links {
+    display: flex;
+    width: 240px;   
+    justify-content: space-between;
+    list-style: none;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight:700;
+    font-family: 'Open Sans';
+    word-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #2b2a2a;
+}
+
+h1{
+    text-align: center;
+    
+    
+}
